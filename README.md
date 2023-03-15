@@ -1,5 +1,5 @@
 # ❤ Verse programming language
-**Verse Programming Language - functional logic language developed by Epic Games** - repo of all informations, official resources and snippets
+**Functional logic language developed by Epic Games** - repo of all informations, official resources and snippets
 
 
 <sub> do not confuse with: ~~https://github.com/verse-lang/verse https://github.com/Idyllei/verse-pl </sub>~~
