@@ -14,7 +14,7 @@
 #### Official materials:
 [1📝]: *[The Verse Calculus: a Core Calculus for Functional Logic Programming](https://simon.peytonjones.org/assets/pdfs/verse-March23.pdf)*
 
-
+-------------
 > #### repo: [VC_VerseCalculusNotes](https://github.com/UnrealVerseGuru/VC_VerseCalculus) contains notes from [1📝] *WIP*
 
 
