@@ -32,6 +32,7 @@ Also called "MaxVerse" by [SPJ](https://simon.peytonjones.org/): "Analogy Haskel
  
    ----------------------
 </details>
+
 <sub> do not confuse with: ~~https://github.com/verse-lang/verse https://github.com/Idyllei/verse-pl </sub>~~
 
 #### Official materials:
@@ -61,7 +62,7 @@ UEFN Verse does differ a bit from Verse programming language and what we see in 
  ## Epic is working on ***[Visual Verse](https://twitter.com/UnrealVerseGuru/status/1636691915927171072)*** visual scripting language
   * Visual scripting is a process of using a visual programming language to create computer programs/scripts. Instead of writing lines of code You use GUI elements, connecting nodes/blocks defining behaviour & logic (Unreal Engine uses **Blueprints** (old Kismet) visual scripting language heavily in UE editor for most of in editor avilable tasks & scripting logic)
   * there are not much informations about it beside registering trademark, recruitment posts for Fortnite (probably UEFN) [1](https://twitter.com/UnrealVerseGuru/status/1582139223355768832) [2](https://twitter.com/UnrealVerseGuru/status/1593014047091351552), and some minor mentions/leaks related to it
-   * From those we know IDE for Unreal Engine for VV
+   * From those we know IDE for Unreal Engine for VV is in the works
  
  -------------
 </details>
