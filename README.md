@@ -1,7 +1,7 @@
 # ❤ Verse programming language
 **Functional logic language developed by Epic Games** - repo of all informations, official resources and snippets
 
-**Also called "MaxVerse" by [SPJ](https://simon.peytonjones.org/): "Analogy Haskell"** "built on top of **VC**"
+Also called "MaxVerse" by [SPJ](https://simon.peytonjones.org/): "Analogy Haskell" "built on top of **VC**"
 
 <details>
 
@@ -41,7 +41,8 @@
 -------------
 # 💙 Verse in UEFN - Unreal Editor For Fortnite
 **Called "ShipVerse" by SPJ "very conservative subset" of Verse programming language avilable in UEFN, sometimes related as "Verse scripting"**
-**UEFN Verse does differ a bit from Verse programming language and what we see in VC**
+
+UEFN Verse does differ a bit from Verse programming language and what we see in VC
 
 [I've made vide summarizing how Verse might play in UEFN and to clarify these 3 different terms: CoreVerse, ShipVerse, MaxVerse](https://youtu.be/Xon9r3piIIw?t=251) <sub>at 4:14 video time, video is from before UEFN release and has many predictions</sub>
 
@@ -50,7 +51,7 @@
 -------------
 
 # 💚 Visual Verse - visual scripting language developed by Epic
-**Epic is working on visual scripting language, Unreal Engine IDE for it and to be used in UEFN/Fortnite**
+**Epic is working on visual scripting language and Unreal Engine IDE for it and to be used potentially in UEFN/Fortnite**
 
 <details>
 
@@ -60,6 +61,7 @@
  ## Epic is working on ***[Visual Verse](https://twitter.com/UnrealVerseGuru/status/1636691915927171072)*** visual scripting language
   * Visual scripting is a process of using a visual programming language to create computer programs/scripts. Instead of writing lines of code You use GUI elements, connecting nodes/blocks defining behaviour & logic (Unreal Engine uses **Blueprints** (old Kismet) visual scripting language heavily in UE editor for most of in editor avilable tasks & scripting logic)
   * there are not much informations about it beside registering trademark, recruitment posts for Fortnite (probably UEFN) [1](https://twitter.com/UnrealVerseGuru/status/1582139223355768832) [2](https://twitter.com/UnrealVerseGuru/status/1593014047091351552), and some minor mentions/leaks related to it
+   * From those we know IDE for Unreal Engine for VV
  
  -------------
 </details>
@@ -70,7 +72,7 @@
 # 💜 VC - Verse Calculus
 **New Core Calculus for Functional Logic Programming**
 
-**Called "CoreVerse" by SPJ "analogy: [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus)" but made for Verse and FLP languages**
+Called "CoreVerse" by SPJ "analogy: [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus)" but made for Verse and FLP languages
 #### Official materials:
 [1📝]: *[The Verse Calculus: a Core Calculus for Functional Logic Programming](https://simon.peytonjones.org/assets/pdfs/verse-March23.pdf)*
 
