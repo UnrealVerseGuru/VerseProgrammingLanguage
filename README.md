@@ -40,7 +40,7 @@ Also called "MaxVerse" by [SPJ](https://simon.peytonjones.org/): "Analogy Haskel
     * 📟 [^slide deck](https://simon.peytonjones.org/assets/pdfs/haskell-exchange-22.pdf)
 
 -------------
-# 💙 Verse in UEFN - Unreal Editor For Fortnite
+# 💙 Verse in [UEFN - Unreal Editor For Fortnite](https://store.epicgames.com/en-US/p/fortnite--uefn)
 **Called "ShipVerse" by SPJ "very conservative subset" of Verse programming language avilable in UEFN, sometimes related as "Verse scripting"**
 
 UEFN Verse does differ a bit from Verse programming language and what we see in VC
