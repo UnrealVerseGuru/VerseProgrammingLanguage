@@ -38,10 +38,12 @@ Also called "MaxVerse" by [SPJ](https://simon.peytonjones.org/): "Analogy Haskel
 #### Official materials:
   * ▶[Beyond Functional Programming: The Verse Programming Language (Simon Peyton Jones)](https://www.youtube.com/watch?v=832JF1o7Ck8&ab_channel=SkillsMatter) <sub>Dec 2022 SPJ</sub>
     * 📟 [^slide deck](https://simon.peytonjones.org/assets/pdfs/haskell-exchange-22.pdf)
-
+   * ▶ **[The Verse programming language GDC 2023](https://youtu.be/teTroOAGZjM?t=22494)**
 -------------
 # 💙 Verse in [UEFN - Unreal Editor For Fortnite](https://store.epicgames.com/en-US/p/fortnite--uefn)
-**Called "ShipVerse" by SPJ "very conservative subset" of Verse programming language avilable in UEFN, sometimes related as "Verse scripting"**
+**Called "ShipVerse" by SPJ or "BetaVerse"(Tim Sweeney) "very conservative subset" of Verse programming language avilable in UEFN, sometimes related as "Verse scripting"**
+
+
 
 UEFN Verse does differ a bit from Verse programming language and what we see in VC
 
@@ -49,6 +51,7 @@ UEFN Verse does differ a bit from Verse programming language and what we see in 
 
 #### Official materials:
  * ▶[2020 Year In Review | Inside Unreal (reveal of Verse scripting language)](https://youtu.be/pjK6QHlbfKE?t=3632) <sub>at 1:00:45 video time. Dec 2020</sub>
+ * ▶ **[The Verse programming language GDC 2023](https://youtu.be/teTroOAGZjM?t=22494)**
 -------------
 
 # 💚 Visual Verse - visual scripting language developed by Epic
