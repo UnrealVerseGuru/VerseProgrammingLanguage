@@ -1,6 +1,7 @@
 ### UEFN Verse general info:
 - _case sensitive_
 - no semicolons to finish statement
+- indentation defines scoping
 
 **Comments**
 ```diff
@@ -52,6 +53,8 @@ var Coins : int
  - `string`
 ```diff
 "This is string"
+# emojiis allowed
+"I ❤️ Verse"
 ```
 - `float`
 ```diff
@@ -63,7 +66,8 @@ var Coins : int
 ```
 - `logic` usual boolean with either: false, true
 ```
-false 
+false
+var TargetLocked : logic = false
 ```
 #### keywords
 - `set`
@@ -73,6 +77,34 @@ set Coins = 22
 ```
 - 
 
+#### operators
+ * query `?` postfix, use to check if `logic` is true or false
+ ``` diff
+ if (IsMorning?):
+    Say("Good Morning!")
+ ```
+ * failable `=` infix, to test if two logic values are equal
+ ```diff
+ # Initialize logic variables for demonstration purposes.
+var TargetLocked : logic = false
+var WeaponEquipped : logic = true
+	
+# Determine whether or not the "unavailable action" icon is appropriate.
+if (WeaponEquipped <> TargetLocked):
+    # The icon should show up, because the player appears to be trying to
+    # attack, but is missing either a weapon or a target.
+    ShowUnavailableIcon()
+```
+ * `and`, `or` infix
+``` dif
+if (Tired? or SchoolTomorrow?):
+    set WhatToWatch = "your eyelids"
+else if (FriendsAvailable?):
+    set WhatToWatch = "a movie with your friends"
+else: 
+    set WhatToWatch = "cartoons"
+```
+
 #### logging
 ```diff
 CoinsAmount : int = 2
@@ -80,7 +112,40 @@ CoinsAmount : int = 2
 Print(" 2 + Coins amount = {2 + CoinsAmount}")
 # Logs: 2 + Coins amount = 4
 
-# emojiis allowed
 Print(" Concatenated string: {"I " + "❤️ " + " Verse"}")
 # Logs: Concatenated string: I ❤️ Verse
 ```
+
+#### conditional expressions
+ - `if else`
+ ```diff
+var Tired: logic = false
+var WhatToWatch: string = “nothing”
+
+if (Tired?):
+	set WhatToWatch = “your eyelids” #note indentation defines scope, if Tired? = true, only this expression will be evaluated, else: scope will be omitted
+else:
+	set WhatToWatch = “cartoons”
+
+Print(“You should watch {WhatToWatch}”)
+
+# logs: You should watch cartoons
+```
+
+#### functions
+* function (routine) declaration
+```diff
+# name() : type =
+    #codeblock
+PrintHelloWorld() : void = 
+    Print("Hello World")
+```
+ * function call
+```diff
+PrintHelloWorld()
+```
+ * member functions: **methods**
+ ```dif
+# call a member function 
+Cat.Pounce()
+ ```
