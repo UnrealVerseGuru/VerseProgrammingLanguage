@@ -1,5 +1,5 @@
 ### UEFN Verse general info:
-- _case insensitive_, You can do whatever you like, but recommendation: CamelCase functions, lower_case variables
+- case sensitive globally. no strict naming conventions, You can do whatever you like, but recommendation: CamelCase values, lower_case types (snake_case for long types)
 - no semicolons to finish statement
 - indentation defines scoping
 - member functions and classes are overrideable by default, `override` specifier required when overriding
@@ -70,6 +70,8 @@ var Coins : int
 false
 var TargetLocked : logic = false
 ```
+- `void` 
+
 #### keywords
 - `set`
 ```diff
@@ -136,8 +138,9 @@ Print(“You should watch {WhatToWatch}”)
 #### functions
 * function (routine) declaration
 ```diff
+#function signature:
 # name() : type =
-    #codeblock
+    #codeblock/body has local scope
     
 PrintHelloWorld() : void = 
     Print("Hello World")
@@ -151,6 +154,16 @@ PrintHelloWorld()
 # call a member function 
 Cat.Pounce()
  ```
+
+ * Calling method that can fail
+```diff
+# quirky notation, but that's sth resembling opt
+FailableMethod[]
+```
+ * `return` works mostly like cpp
+```diff
+WIP
+```
 
 ### classes
  * **composite** type made of bundle of data from other **types**
