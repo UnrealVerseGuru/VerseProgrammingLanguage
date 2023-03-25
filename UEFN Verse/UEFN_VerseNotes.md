@@ -1,7 +1,8 @@
 ### UEFN Verse general info:
-- _case sensitive_
+- _case insensitive_, You can do whatever you like, but recommendation: CamelCase functions, lower_case variables
 - no semicolons to finish statement
 - indentation defines scoping
+- member functions and classes are overrideable by default, `override` specifier required when overriding
 
 **Comments**
 ```diff
@@ -117,7 +118,7 @@ Print(" Concatenated string: {"I " + "❤️ " + " Verse"}")
 ```
 
 #### conditional expressions
- - `if else`
+ - `if` `else`
  ```diff
 var Tired: logic = false
 var WhatToWatch: string = “nothing”
@@ -137,6 +138,7 @@ Print(“You should watch {WhatToWatch}”)
 ```diff
 # name() : type =
     #codeblock
+    
 PrintHelloWorld() : void = 
     Print("Hello World")
 ```
@@ -149,3 +151,8 @@ PrintHelloWorld()
 # call a member function 
 Cat.Pounce()
  ```
+
+### classes
+ * **composite** type made of bundle of data from other **types**
+ * inheritance by subclasses
+ * methods - member functions
