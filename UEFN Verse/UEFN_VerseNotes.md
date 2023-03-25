@@ -155,7 +155,7 @@ PrintHelloWorld()
 Cat.Pounce()
  ```
 
- * Calling method that can fail
+ * Calling method that can fail, used with `<decides>` **specifier** **effect** in failure context
 ```diff
 # quirky notation, but that's sth resembling opt
 FailableMethod[]
