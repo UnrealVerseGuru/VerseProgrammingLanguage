@@ -51,7 +51,6 @@ UEFN Verse does differ a bit from Verse programming language and what we see in 
  * ▶[2020 Year In Review | Inside Unreal (reveal of Verse scripting language)](https://youtu.be/pjK6QHlbfKE?t=3632) <sub>at 1:00:45 video time. Dec 2020</sub>
  * ▶ **[The Verse programming language GDC 2023](https://youtu.be/teTroOAGZjM?t=22494)**
  * 📘 **[UEFN Verse documentation](https://dev.epicgames.com/documentation/en-us/uefn/verse-language-reference)**
- * ▶ **[The Verse Programming Language - GDC 2023](https://youtu.be/teTroOAGZjM?t=22495)**
 -------------
 
 # 💚 Visual Verse - visual scripting language developed by Epic
