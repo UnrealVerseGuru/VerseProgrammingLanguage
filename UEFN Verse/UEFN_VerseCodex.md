@@ -19,7 +19,7 @@ module A ```<public>```
 
 1. **module statics** like: logs, tags, constants, messages
 2. **interfaces**
-3. **constructors**
+3. **constructors** <sub>(non-local by API)</sub>
 4. **class/struct** definition
   * ``` <public>```
     * **statics** like: logs, tags, constants
