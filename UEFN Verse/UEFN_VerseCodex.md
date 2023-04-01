@@ -52,6 +52,8 @@ DamageAmountOpt : ?int = false
 bContainsWeapons<native><public>:logic = external {}
 ```
 
+-------------
+
 #### Functions naming
  * Getters start with "Get"
  ```diff
@@ -75,6 +77,8 @@ AsyncMoveTo()<suspends>:void
 MakeCountdownTimer<constructor><public>() := countdown_timer:
 ```
 
+-----------
+
 ### Comments
  * Preffer **multi-line block comment** for multi lined comments or **indentend comment**
 ```diff
@@ -89,6 +93,8 @@ ThisFunctionIsNotCommentedOut()
 ### language reserved keywords
 _TODO_
 
-## UEFN
+--------------
+
+## UEFN style guide
 ### Asset naming conventions
 For most stock UE assets working in UEFN follow [ue-5-style-guide](https://github.com/Allar/ue5-style-guide/commits?author=Allar)
