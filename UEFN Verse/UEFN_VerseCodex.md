@@ -1,4 +1,5 @@
-# UEFN / Verse Style guide
+# UEFN / Verse Codex
+Attempt at standarization for style and structure of UEFN & Verse projects, feedback/your ideas more than welcome ! ❤️ search for **Verse Codex** on Fortnite forums
 
 ## Verse style guide
 
