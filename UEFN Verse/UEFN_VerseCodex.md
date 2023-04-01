@@ -11,7 +11,8 @@ Codex assumes strict access modifiers hygiene: expose only as much public/protec
  * module A ```<public>```
    * module B ```<public>```
    * module C ```<internal> #by default```
-
+ * module D ```<protected>```
+ * module E ```<private>```
 ----------------
 
 General rule: statics > events > functions > fields > else
