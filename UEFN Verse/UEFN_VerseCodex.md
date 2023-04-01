@@ -1,5 +1,6 @@
 # UEFN / Verse Codex
-Attempt at standarization for style and structure of UEFN & Verse projects, feedback/your ideas more than welcome ! ❤️ search for **Verse Codex** on Fortnite forums
+Attempt at standarization for style and structure of UEFN & Verse projects, feedback/your ideas more than welcome ! ❤️ 
+post your thoughts on [Fortnite forums](https://forums.unrealengine.com/t/verse-codex-naming-conventions-program-structure-code-clarity/838073)
 
 Codex assumes strict access modifiers hygiene: expose only as much public/protected interface as needed.
 
