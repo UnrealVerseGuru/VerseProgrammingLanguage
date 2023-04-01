@@ -74,4 +74,37 @@ ThisFunctionIsNotCommentedOut()
  * 
 
 ### language reserved keywords
-TODO
+# declaration keywords
+var
+set
+in
+ref
+alias
+live
+# logical/flow keywords
+if
+then
+else
+and
+or
+not
+for
+do
+# language keywords
+return
+yield
+break
+continue
+# other keywords
+where
+is
+of
+at
+until
+over
+when
+while
+with
+upon
+next
+catch
