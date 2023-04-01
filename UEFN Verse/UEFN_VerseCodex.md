@@ -2,8 +2,9 @@
 
 1. logs
 2. tags
-3. Constructors
-4. class/struct definition
+3. messages
+4. Constructors
+5. class/struct definition
   * ``` <public>``` interface
     * fields
       * editable 
@@ -14,4 +15,4 @@
     * debug/temps
   * ```<protected>```
   * ```<private>```
-5.  extension methods
+6.  extension methods
