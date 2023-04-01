@@ -47,7 +47,10 @@ Although not forced by compiler naming convention helps with code readability. E
   fort_character
   my_new_device
   ```
- * **variables** CamelCase
+ * **variables** CamelCase 
+```
+CoinsAmount
+```
  * optionals: preferably statring with Opt, or Maybe..
 ```diff
 MyabePlayer : ?player = false
