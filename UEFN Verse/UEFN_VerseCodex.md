@@ -10,7 +10,7 @@ module A ```<public>```
 
 1. logs
 2. tags
-3. messages (non-local by API)
+3. messages <sub>(non-local by API)</sub>
 4. interfaces
 5. constructors
 6. class/struct definition
