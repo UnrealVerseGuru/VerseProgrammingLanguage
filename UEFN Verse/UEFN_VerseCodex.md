@@ -13,7 +13,7 @@ Codex assumes strict access modifiers hygiene: expose only as much public/protec
 
 ----------------
 
-General rule: globals > events > functions > fields > debug
+General rule: statics > events > functions > fields > else
 
 module A ```<public>```
 
