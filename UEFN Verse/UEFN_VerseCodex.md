@@ -1,3 +1,7 @@
+# UEFN / Verse Style guide
+
+## Verse style guide
+
 ### Proposed file structure
 
  * module A ```<public>```
@@ -15,11 +19,11 @@ module A ```<public>```
 5. constructors
 6. class/struct definition
   * ``` <public>```
-    * fields
-      * editable 
     * events
+    * fields
+      * `@editable` should be high
     * methods
-      * for Devices: OnBegin should be high 
+      * for Devices: `OnBegin()` should be high 
     * ui
     * debug/temps <sub>(good practive to keep it in one place)</sub>
   * ```<protected>```
@@ -29,7 +33,7 @@ module A ```<public>```
 ------------
 
 ### Naming Conventions
-Although not forced by compiler naming convention helps with code readability. Esp given limited capabilities of
+Although not forced by compiler naming convention helps with code readability. Esp given limited capabilities of LSP atm
 
  * **types**: lower_snake_case
   ```diff
@@ -57,13 +61,17 @@ bContainsWeapons<native><public>:logic = external {}
 TrySelectNext<decides><transacts>():void
 (V:vector3).IsFinite<public>()<computes><decides>:vector3
 ```
- * Setters start with "Set"
+ * Setters prefix with "Set"
  ```diff
 SetText(InText:message):void
 ```
- * `<suspends>` effect might be distinguished with "Async", pre/post
+ * `<suspends>` distinguished with "Async", pre/post
  ```diff
 AsyncMoveTo()<suspends>:void
+```
+ * `<constructor>` with "Make"
+ ```diff
+MakeCountdownTimer<constructor><public>() := countdown_timer:
 ```
 
 ### Comments
@@ -78,4 +86,8 @@ ThisFunctionIsNotCommentedOut()
 ```
 
 ### language reserved keywords
-TODO
+_TODO_
+
+## UEFN
+### Asset naming conventions
+For most stock UE assets working in UEFN follow [ue-5-style-guide](https://github.com/Allar/ue5-style-guide/commits?author=Allar)
