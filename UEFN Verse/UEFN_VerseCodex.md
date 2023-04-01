@@ -21,7 +21,7 @@ module A ```<public>```
     * methods
       * for Devices: OnBegin should be high 
     * ui
-    * debug/temps
+    * debug/temps <sub>(good practive to keep it in one place)</sub>
   * ```<protected>```
   * ```<private>```
 7.  extension methods 
@@ -29,7 +29,7 @@ module A ```<public>```
 ------------
 
 ### Naming Conventions
-Although not forced by compiler naming convention helps with code readability.
+Although not forced by compiler naming convention helps with code readability. Esp given limited capabilities of
 
  * **types**: lower_snake_case
   ```diff
@@ -52,13 +52,18 @@ bContainsWeapons<native><public>:logic = external {}
  ```diff
 (InAgent:agent).GetFortCharacter<native><public>()<transacts><decides>:fort_character
 ```
+ * `<decides>` effect unless a getter might be distinguished with forming an question, e.g. "Try" or "Is" prefix
+ ```diff
+TrySelectNext<decides><transacts>():void
+(V:vector3).IsFinite<public>()<computes><decides>:vector3
+```
  * Setters start with "Set"
  ```diff
-SetText<native><public>(InText:message):void
+SetText(InText:message):void
 ```
- * returning `logic` might be distniguished with "Is" prefix
+ * `<suspends>` effect might be distinguished with "Async", pre/post
  ```diff
-IsEnabled<native><public>():logic
+AsyncMoveTo()<suspends>:void
 ```
 
 ### Comments
@@ -71,7 +76,6 @@ to avoid typing hashes all over the place preffer multi-line block comments #>
     use 4 spaces to add it's contents
 ThisFunctionIsNotCommentedOut()
 ```
- * 
 
 ### language reserved keywords
 TODO
