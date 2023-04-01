@@ -1,6 +1,8 @@
 # UEFN / Verse Codex
 Attempt at standarization for style and structure of UEFN & Verse projects, feedback/your ideas more than welcome ! ❤️ search for **Verse Codex** on Fortnite forums
 
+Codex assumes strict access modifiers hygiene: expose only as much public/protected interface as needed.
+
 ## Verse style guide
 
 ### Proposed file structure
@@ -11,25 +13,27 @@ Attempt at standarization for style and structure of UEFN & Verse projects, feed
 
 ----------------
 
+General rule: globals > events > functions > fields > debug
+
 module A ```<public>```
 
-1. logs
-2. tags
-3. messages <sub>(non-local by API)</sub>
-4. interfaces
-5. constructors
-6. class/struct definition
+1. **module statics** like: logs, tags, constants, messages
+2. **interfaces**
+3. **constructors**
+4. **class/struct** definition
   * ``` <public>```
-    * events
-    * fields
-      * `@editable` should be high
-    * methods
+    * **events**
+    * **methods**
       * for Devices: `OnBegin()` should be high 
-    * ui
-    * debug/temps <sub>(good practive to keep it in one place)</sub>
+    * **statics** like: logs, tags, constants
+    * **fields**
+      * `@editable` should be highest
+      * messages <sub>(non-local by API)</sub>
+    * **ui**
+    * **debug/temps** <sub>(good practive to keep it in one place)</sub>
   * ```<protected>```
   * ```<private>```
-7.  extension methods 
+5.  **extension methods** <sub>adhering to class from 4.</sub>
 
 ------------
 
