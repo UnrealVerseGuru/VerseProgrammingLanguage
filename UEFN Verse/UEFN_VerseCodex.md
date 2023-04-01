@@ -22,10 +22,10 @@ module A ```<public>```
 3. **constructors**
 4. **class/struct** definition
   * ``` <public>```
+    * **statics** like: logs, tags, constants
     * **events**
     * **methods**
       * for Devices: `OnBegin()` should be high 
-    * **statics** like: logs, tags, constants
     * **fields**
       * `@editable` should be highest
       * messages <sub>(non-local by API)</sub>
