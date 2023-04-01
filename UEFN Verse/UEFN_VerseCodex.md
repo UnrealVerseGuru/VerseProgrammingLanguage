@@ -51,14 +51,14 @@ Although not forced by compiler naming convention helps with code readability. E
 ```
 CoinsAmount
 ```
- * optionals: preferably statring with Opt, or Maybe..
+ * optionals: preferably prefix "Maybe", prefix/suffix "Opt"
 ```diff
-MyabePlayer : ?player = false
+MaybePlayer : ?player = false
 DamageAmountOpt : ?int = false
 ```
  * `logic` variables with "b" prefix
 ```diff
-bContainsWeapons<native><public>:logic = external {}
+bContainsWeapons<native><public>:logic
 ```
 
 -------------
