@@ -63,10 +63,12 @@ bContainsWeapons<native><public>:logic = external {}
  ```diff
 (InAgent:agent).GetFortCharacter<native><public>()<transacts><decides>:fort_character
 ```
- * `<decides>` effect unless a getter might be distinguished with forming an question, e.g. "Try" or "Is" prefix
+ * `<decides>` effect might be distinguished with forming an question, e.g. "Try" or "Is" prefix
  ```diff
 TrySelectNext<decides><transacts>():void
 (V:vector3).IsFinite<public>()<computes><decides>:vector3
+#note: for failable getters to distinguish them from non failable ones
+TryGetCharacter()<decides><transacts>():character
 ```
  * Setters prefix with "Set"
  ```diff
