@@ -1,3 +1,5 @@
+DISCLAIMER: This is very much old & WIP, I've dumped few thoughts from UEFN release skimming over docs, will soon fix this and fill with info.
+
 ### UEFN Verse general info:
 - case sensitive globally. no strict naming conventions, You can do whatever you like, but recommendation: CamelCase values, lower_case types (snake_case for long types)
 - no semicolons to finish statement
@@ -65,7 +67,7 @@ var Coins : int
 ```diff
 99
 ```
-- `logic` usual boolean with either: false, true
+- `logic` usual boolean equivalent with either: false, true
 ```
 false
 var TargetLocked : logic = false
@@ -155,10 +157,11 @@ PrintHelloWorld()
 Cat.Pounce()
  ```
 
- * Calling method that can fail, used with `<decides>` **specifier** **effect** in failure context
+ * Calling method that can fail/succeed, used with `<decides>` **specifier** **effect** in failure context
 ```diff
-# quirky notation, but that's sth resembling opt
-FailableMethod[]
+# explicit notation for querying failable function in failure context
+if (FailableMethod[]):
+	Print("Failable function succeeded")
 ```
  * `return` works mostly like cpp
 ```diff
