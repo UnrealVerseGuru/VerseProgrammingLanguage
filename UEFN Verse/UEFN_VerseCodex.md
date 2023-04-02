@@ -102,10 +102,45 @@ ThisFunctionIsNotCommentedOut()
 ```
 
 ### language reserved keywords
-_TODO_
-
+```diff
+# declaration keywords
+var
+set
+in
+ref
+alias
+live
+# logical/flow keywords
+if
+then
+else
+and
+or
+not
+for
+do
+# language keywords
+return
+yield
+break
+continue
+# other keywords
+where
+is
+of
+at
+until
+over
+when
+while
+with
+upon
+next
+catch
+```
 --------------
 
 ## UEFN style guide
 ### Asset naming conventions
 For most stock UE assets working in UEFN follow [ue-5-style-guide](https://github.com/Allar/ue5-style-guide/commits?author=Allar)
+
