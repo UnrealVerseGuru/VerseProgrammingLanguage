@@ -101,6 +101,26 @@ to avoid typing hashes all over the place preffer multi-line block comments #>
 ThisFunctionIsNotCommentedOut()
 ```
 
+### Style
+ * Line length: 150
+ * **directives**: sorted alphabetically, ascending
+    * first global, then local
+ * group common elements
+ * prefer shorer styles, use inferring were possible (untill readability suffers) e.g.
+ ```diff
+ if (X := Y). X else. Y
+ # instead of
+ if (X : type = Y):
+  X
+ else:
+  Y
+ 
+#inferring
+One := 1
+#instead of verbose:
+One : int = 1
+ ```
+
 ### language reserved keywords
 ```diff
 # declaration keywords
