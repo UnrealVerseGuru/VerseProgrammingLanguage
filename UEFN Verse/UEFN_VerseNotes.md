@@ -172,3 +172,12 @@ WIP
  * **composite** type made of bundle of data from other **types**
  * inheritance by subclasses
  * methods - member functions
+
+### attributes `@`
+ * `@editable`
+	* not supported for classes that aren’t `<concrete>`
+```diff
+# DefaultCreativePropAsset must be used for creative_prop_asset type, other types can instantiate normally with {} notation
+@editable
+PropAssetRef : creative_prop_asset = DefaultCreativePropAsset
+```
