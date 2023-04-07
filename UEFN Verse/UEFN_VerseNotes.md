@@ -51,6 +51,13 @@ var Coins : int
 # note no initialization required
 ```
 
+####
+ * Setting variables
+```diff
+set YourVar = option{Player} 
+set YourVar = option. Player
+```
+
 #### basic types
 
  - `string`
@@ -180,4 +187,10 @@ WIP
 # DefaultCreativePropAsset must be used for creative_prop_asset type, other types can instantiate normally with {} notation
 @editable
 PropAssetRef : creative_prop_asset = DefaultCreativePropAsset
+```
+
+### `using` directive
+```diff
+using. /Fortnite.com/Devices
+using { /Verse.org/Simulation }
 ```
